@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Links</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #f4f4f4;
+        padding: 10px;
+        text-align: center;
+      }
+      section {
+        padding: 20px;
+      }
+      .home {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+      }
+      .home img {
+        width: 50%;
+        height: auto%;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+      }
+      .gallery img {
+        width: 50%;
+        height: auto%;
+      }
+      .menu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .menu ul li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+      <a href="#home">Home</a> | <a href="#gallery">Gallery</a> |
+      <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to our website! Here's an image related to technology:</p>
+      <a href="#home" target="_blank">
+        <img
+          src="https://wallpaperaccess.com/full/210938.jpg"
+          alt="Technology Image"
+        />
+      </a>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <a href="#gallery" target="_blank">
+          <img
+            src="https://wallpaperaccess.com/full/1163741.jpg"
+            alt="Nature Image 1"
+          />
+        </a>
+        <a href="#gallery" target="_blank">
+          <img
+            src="https://wallup.net/wp-content/uploads/2019/09/1021570-plants-landscape-water-lake-forest-canada-banff-national-park-1.jpg"
+            alt="Nature Image 2"
+          />
+        </a>
+        <a href="#gallery" target="_blank">
+          <img
+            src="https://wallup.net/wp-content/uploads/2016/03/10/321686-nature-landscape-mist-sunrise-lake-hill-trees-water-reflection-clouds-Australia.jpg"
+            alt="Nature Image 3"
+          />
+        </a>
+      </div>
+    </section>
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#menu" target="_blank">Pizza</a>
+            <img
+              src="https://riotfest.org/wp-content/uploads/2016/10/151_1stuffed_crust_pizza.jpg"
+              alt="Pizza Image"
+            />
+          </li>
+          <li>
+            <a href="#menu" target="_blank">Burger</a>
+            <img
+              src="https://www.eatthis.com/wp-content/uploads/sites/4/media/images/ext/520765216/classic-beef-burger.jpg?resize=183"
+              alt="Burger Image"
+            />
+          </li>
+          <li>
+            <a href="#menu" target="_blank">Sushi</a>
+            <img
+              src="https://sushitraintulsaok.com/wp-content/uploads/2016/12/15259385_1568378463179033_759053258480544279_o.jpg"
+              alt="Sushi Image"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
